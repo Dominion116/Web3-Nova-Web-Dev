@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+
+
+</head>
+
+<body>
+    <!-- Images -->
+
+    <!-- Tables -->
+    <table border="1" width="300">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Col 1</td>
+                <td>Row 1, Col 2</td>
+                <td>Row 1, Col 3</td>
+                <td>Row 1, Col 4</td>
+            </tr>
+            <tr>
+                <td>Row 2, Col 1</td>
+                <td>Row 2, Col 2</td>
+                <td>Row 2, Col 3</td>
+                <td>Row 2, Col 4</td>
+            </tr>
+            <!-- More rows as needed -->
+        </tbody>
+    </table>
+    <table border="1" width="500">
+        <thead>
+            <tr>
+                <th></th>
+                <th>ABC</th>
+                <th>BBC</th>
+                <th>CNN</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>6pm - 7pm</th>
+                <td rowspan="2">Movie</td>
+                <td>Comedy</td>
+                <td>News</td>
+            </tr>
+            <tr>
+                <th>8pm - 9pm</th>
+                <td>Sports</td>
+                <td>Comedy</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <!-- FORMS -->
+
+    <form action="./index.html" method="get" id="sampleForm" maxlength="5" >
+
+        <label for="firstName">First Name: </label>
+        <input type="text" id="firstName" name="firstName"/>
+        <br>
+
+        <label for="lastName">Last Name: </label>
+        <input type="text" id="lastName" name="lastName"/>
+        <br>
+
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age"/>
+        <br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password">
+        <br>
+
+        Pizza Size:
+        <label>
+            <input type="radio" name="size" value="small">Small
+        </label>
+        <label>
+            <input type="radio" name="size" value="medium">Medium
+        </label>
+        <label>
+            <input type="radio" name="size" value="large">Large
+        </label>
+        <br>
+        Pizza Toppings
+        <label>
+            <input type="radio" name="toppings" value="pepperoni">Pepperoni
+        </label>
+        <label>
+            <input type="radio" name="toppings" value="bacon">Bacon
+        </label>
+        <label>
+            <input type="radio" name="toppings" value="mushrooms">Mushrooms
+        </label>
+        <br>
+
+
+        <select name="country" id="country">
+            <option value="">Select Option</option>
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+            <option value="nigeria">Nigeria</option>
+        </select>
+
+        <br>
+        <button type="reset">Sign Up</button>
+    </form>
+</body>
+
+</html>
